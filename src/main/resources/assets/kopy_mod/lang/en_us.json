@@ -1,0 +1,9 @@
+{
+  "item.kopy_mod.fabric_item": "Custom Item From Kopy's Mod",
+  "item.kopy_mod.fabric_item.tooltip": "Here is some custom tooltippage",
+  "item.kopy_mod.fabric_helmet": "Fabric Helmet",
+  "item.kopy_mod.fabric_chestplate": "Fabric Chestplate",
+  "item.kopy_mod.fabric_leggings": "Fabric Leggings",
+  "item.kopy_mod.fabric_boots": "Fabric Boots",
+  "itemGroup.kopy_mod.kopy_mod_item_group": "Kopy's Mod Items Group"
+}
