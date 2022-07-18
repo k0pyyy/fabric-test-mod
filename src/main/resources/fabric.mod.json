@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "kopy-mod",
+  "id": "kopy_mod",
   "version": "${version}",
 
   "name": "Kopy's Test Mod",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/kopy-mod/icon.png",
+  "icon": "assets/kopy_mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.kopy.ExampleMod"
+      "io.kopy.KopyMod"
     ]
   },
   "mixins": [

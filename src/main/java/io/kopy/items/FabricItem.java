@@ -6,7 +6,6 @@ import net.minecraft.entity.LightningEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
@@ -15,9 +14,9 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class CustomItem extends Item {
+public class FabricItem extends Item {
 
-    public CustomItem(Settings settings) {
+    public FabricItem(Settings settings) {
         super(settings);
     }
 
@@ -36,6 +35,6 @@ public class CustomItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.kopy-mod.custom_item.tooltip").formatted(Formatting.BOLD, Formatting.GREEN));
+        tooltip.add(Text.translatable("item.kopy_mod.fabric_item.tooltip").formatted(Formatting.BOLD, Formatting.GREEN));
     }
 }
