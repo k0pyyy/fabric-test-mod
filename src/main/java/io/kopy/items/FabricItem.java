@@ -1,10 +1,12 @@
 package io.kopy.items;
 
+import io.kopy.utils.RegisterItems;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LightningEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -28,7 +30,6 @@ public class FabricItem extends Item {
 
         // Spawn the lightning that strikes the player
         world.spawnEntity(lightningEntity);
-
 
         return TypedActionResult.success(user.getStackInHand(hand));
     }
